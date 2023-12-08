@@ -1,5 +1,7 @@
  # ARKit experiments
  
+2D bounding boxes are rectangles with the smallest area around ground truth projection of the points belonging to the respective object
+
 Default filter - at least 3 objects with all 8 3D bounding box vertices in the image
 
 ## All ARKit scenes
