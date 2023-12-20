@@ -27,7 +27,9 @@ Default filter - at least 3 objects with all 8 3D bounding box vertices in the i
 (upper 2DBB midpoint and midpoint of upper face) - with very big threshold - so that only one model is picked 
 
 DP2P
-* in progress
+
+| ![angle error levels](./data/comp_arkit_verification_DP2P_general_min=3-6points_angle_error_levels.png) | ![position error levels](./data/comp_arkit_verification_DP2P_general_min=3-6points_position_error_levels.png) |
+|----------------------------------------------------------|------------------------------------------------------------|
 
 P3P
 
