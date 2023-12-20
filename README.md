@@ -4,6 +4,47 @@
 
 Default filter - at least 3 objects with all 8 3D bounding box vertices in the image
 
+## Reprojection error histograms of different strategies
+
+* GT point cloud, minimal area rectangle around it
+
+![angle error levels](./data/reproj_error_histogram_gt.png) 
+
+* 2D BB via segmentation, mapping between DS and segmentation based on object classes
+* not that much worse, but only very few mappings are complete
+
+![angle error levels](./data/reproj_error_histogram_based_on_classes.png) 
+
+* 2D BB via segmentation, mapping between DS and segmentation based segment in the GT projection of the center of the object
+* more mappings complete, but the reprojection error is bigger; still using GT knowledge  
+
+![angle error levels](./data/reproj_error_histogram_based_on_segment_in_gt_projection.png) 
+
+
+## All ARKit scenes - comparison with upper midpoint verification
+
+* in RANSAC the multiple models returned by the solver are scored based on these extra correspondences 
+(upper 2DBB midpoint and midpoint of upper face) - with very big threshold - so that only one model is picked 
+
+DP2P
+* in progress
+
+P3P
+
+| ![angle error levels](./data/comp_arkit_verification_P3P_general_min=3-6points_angle_error_levels.png) | ![position error levels](./data/comp_arkit_verification_P3P_general_min=3-6points_position_error_levels.png) |
+|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+
+UP2P
+
+| ![angle error levels](./data/comp_arkit_verification_UP2P_general_min=3-6points_angle_error_levels.png) | ![position error levels](./data/comp_arkit_verification_UP2P_general_min=3-6points_position_error_levels.png) |
+|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+
+
+## All ARKit scenes - comparison with upper midpoint correspondences as proper correspondences
+
+* in progress
+
+
 ## All ARKit scenes
  
 * as expected P3P > DP2P > UP2P
