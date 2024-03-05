@@ -1,10 +1,8 @@
-# All extra correspondences added to the inlier score  
+# All extra correspondences added to the inlier score in the ARKitScenes dataset  
 
 * Experiments comparing baseline with version with extra correspondences between center of top-face (3D BB) 
 and the midpoint of the top line segment (2D BB) added to the computation of the inlier score  
  
-# ARKitScenes
-
 ## At most 1 degree deviation from gravity 
 
 ### D2Px

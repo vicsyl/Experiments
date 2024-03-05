@@ -1,11 +1,9 @@
-# Extra correspondences from the minimal sample added to the inlier score  
+# Extra correspondences from the minimal sample added to the inlier score in the ARKitScenes dataset  
 
 * Experiments comparing baseline with version with extra correspondences between center of top-face (3D BB) 
 and the midpoint of the top line segment (2D BB) - corresponding to the minimal solver - added to the computation 
 of the inlier score  
  
-# ARKitScenes
-
 ## At most 1 degree deviation from gravity 
 
 ### D2Px

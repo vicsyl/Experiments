@@ -1,9 +1,10 @@
-# Choosing a single model 
+# Choosing a single model in the ARKitScenes dataset 
 
 * Experiments comparing baseline with version choosing a single model from multiple models returned by the minimal solver,
 based on the score with additional correspondences  
  
-# ARKitScenes
+* As may have been expected, this helps if #points == minimal sample, otherwise the increase in performance is usually small 
+or even negative    
 
 ## At most 1 degree deviation from gravity 
 

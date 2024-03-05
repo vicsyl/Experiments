@@ -1,10 +1,8 @@
-# Extra correspondences as first class citizens 
+# Extra correspondences as first class citizens in the ARKitScenes dataset 
 
 * Experiments comparing baseline with version with extra correspondences between center of top-face (3D BB) 
 and the midpoint of the top line segment (2D BB)  
  
-# ARKitScenes
-
 ## At most 1 degree deviation from gravity 
 
 ### D2Px
