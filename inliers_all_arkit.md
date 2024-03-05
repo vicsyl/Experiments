@@ -2,6 +2,8 @@
 
 * Experiments comparing baseline with version with extra correspondences between center of top-face (3D BB) 
 and the midpoint of the top line segment (2D BB) added to the computation of the inlier score  
+
+* Helps quite consistently to improve performance of all solvers, mostly in the space case camera rotations 
  
 ## At most 1 degree deviation from gravity 
 

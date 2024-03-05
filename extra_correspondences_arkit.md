@@ -2,7 +2,12 @@
 
 * Experiments comparing baseline with version with extra correspondences between center of top-face (3D BB) 
 and the midpoint of the top line segment (2D BB)  
- 
+
+* Helps more for small deviation from gravity (the extra correspondences are not very error contaminated) than for other 
+classes of camera rotation
+
+* Helps the best for scenes with #points == minimal sample 
+
 ## At most 1 degree deviation from gravity 
 
 ### D2Px

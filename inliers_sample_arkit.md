@@ -4,6 +4,8 @@
 and the midpoint of the top line segment (2D BB) - corresponding to the minimal solver - added to the computation 
 of the inlier score  
  
+* very similar to experiments where all extra correspondences were added as inliers  
+
 ## At most 1 degree deviation from gravity 
 
 ### D2Px
