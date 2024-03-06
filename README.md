@@ -21,31 +21,6 @@ Default filter - at least 3 objects with all 8 3D bounding box vertices in the i
 ![angle error levels](./data/reproj_error_histogram_based_on_segment_in_gt_projection.png) 
 
 
-## All ARKit scenes - comparison with upper midpoint verification
-
-* in RANSAC the multiple models returned by the solver are scored based on these extra correspondences 
-(upper 2DBB midpoint and midpoint of upper face) - with very big threshold - so that only one model is picked 
-
-DP2P
-
-| ![angle error levels](./data/comp_arkit_verification_DP2P_general_min=3-6points_angle_error_levels.png) | ![position error levels](./data/comp_arkit_verification_DP2P_general_min=3-6points_position_error_levels.png) |
-|----------------------------------------------------------|------------------------------------------------------------|
-
-P3P
-
-| ![angle error levels](./data/comp_arkit_verification_P3P_general_min=3-6points_angle_error_levels.png) | ![position error levels](./data/comp_arkit_verification_P3P_general_min=3-6points_position_error_levels.png) |
-|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-
-UP2P
-
-| ![angle error levels](./data/comp_arkit_verification_UP2P_general_min=3-6points_angle_error_levels.png) | ![position error levels](./data/comp_arkit_verification_UP2P_general_min=3-6points_position_error_levels.png) |
-|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-
-
-## All ARKit scenes - comparison with upper midpoint correspondences as proper correspondences
-
-* in progress
-
 
 ## All ARKit scenes
  
