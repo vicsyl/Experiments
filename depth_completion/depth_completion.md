@@ -25,6 +25,12 @@ varying ratio of guidance points (0.05, 0.1, 0.15 and 0.2 of all the corresponde
   * the adjustment is non-linear as it helps even after the alignment
   * some data are left out (sydney opera for the absolute relative difference metric), as they are way off
 
+| <img src= "./data/dc_abs_relative_difference.png" alt="your-image-description" style="border: 5px solid red;">| ![i_rmse](./data/dc_i_rmse.png) |
+|-------------------------------------------------------------------------|-|
+
+| <img src= "./data/dc_abs_relative_difference.png" alt="your-image-description">| ![i_rmse](./data/dc_i_rmse.png) |
+|-------------------------------------------------------------------------|-|
+
 | ![absolute relative difference](./data/dc_abs_relative_difference.png) | ![i_rmse](./data/dc_i_rmse.png) |
 |-|-|
 
