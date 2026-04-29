@@ -34,7 +34,7 @@ These plots show the ratio between the estimated and the GT radial distortion pa
 ![](./rd_estimation/resources/rd_over_gt_rd__model=DA3-SMALL__image_limit=None.png)
 
 
-However, the focal length estimation overestimates f quite much. These plots show the ratio between the estimated and the GT f for all the distorted images in the 'rotunda' dataset. The values are clamped at the maximum of 10. The results for the largest (top) and the smallest (bottom) model are quite similar.
+However, the focal length estimation overestimates f substantially. These plots show the ratio between the estimated and the GT f for all the distorted images in the 'rotunda' dataset. The values are clamped at the maximum of 10. The results for the largest (top) and the smallest (bottom) model are quite similar.
 
 ![](./rd_estimation/resources/f_over_gt_f__model=DA3NESTED-GIANT-LARGE-1.1__image_limit=None.png)
 
